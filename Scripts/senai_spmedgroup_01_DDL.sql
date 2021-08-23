@@ -19,6 +19,12 @@ CREATE TABLE usuario(
 );
 GO
 
+CREATE TABLE situacaoConsulta(
+idSituacaoConsulta TINYINT PRIMARY KEY IDENTITY (1,1),
+situacaoConsulta VARCHAR (15)
+);
+GO
+
 CREATE TABLE especializacao(
  idEspecializacao TINYINT PRIMARY KEY IDENTITY,
  nomeEspecializacao VARCHAR(100) NOT NULL UNIQUE
@@ -35,6 +41,16 @@ CREATE TABLE instituicao (
 );
 GO
 
+CREATE TABLE medico (
+idMedico SMALLINT PRIMARY KEY IDENTITY (1,1),
+idUsuario INT FOREIGN KEY REFERENCES Usuario(idUsuario),
+idInstituicao SMALLINT FOREIGN KEY REFERENCES Instituicao (idInstituicao),
+idEspecializacao TINYINT FOREIGN KEY REFERENCES especializacao (idEspecializacao),
+nomeMedico VARCHAR (200) NOT NULL,
+crm VARCHAR (20) UNIQUE NOT NULL
+);
+GO
+
 CREATE TABLE paciente(
  idPaciente INT PRIMARY KEY IDENTITY,
  idUsuario INT FOREIGN KEY REFERENCES usuario(idUsuario),
@@ -42,6 +58,16 @@ CREATE TABLE paciente(
  telefone VARCHAR(20) UNIQUE,
  rg VARCHAR(15) NOT NULL UNIQUE,
  cpf VARCHAR(15) NOT NULL UNIQUE,
- endereco VARCHAR NOT NULL
+ endereco VARCHAR (256) NOT NULL
+);
+GO
+
+CREATE TABLE consulta(
+idConsulta INT PRIMARY KEY IDENTITY (1,1),
+idPaciente INT FOREIGN KEY REFERENCES Paciente (idPaciente),
+idMedico SMALLINT FOREIGN KEY REFERENCES Medico (idMedico),
+idSituacaoConsulta TINYINT FOREIGN KEY REFERENCES situacaoConsulta (idSituacaoConsulta),
+dataConsulta DATETIME NOT NULL,
+descricao VARCHAR (256)
 );
 GO
