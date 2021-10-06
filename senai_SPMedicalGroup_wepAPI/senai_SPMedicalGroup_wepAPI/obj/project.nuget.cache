@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m1Hreyt0ZcqtUJSAnCTHmdiprTljfLF4e0qzePd6PQxXNhUiXNY07dNkh/DD5leX+XBp3fzKaiW6cgmOxilPgw==",
+  "dgSpecHash": "Ovw+EP+lArhMocnx081yABSYwfMDuEUAHWxQTJVEni0fX5IY32bOaiWLueHfHU3M9Wtc+Bk+TAE7WrAPA2Tb5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Patricia\\Desktop\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj",
+  "projectFilePath": "C:\\Users\\Patricia\\Desktop\\Projeto---SP-Med.Group\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Patricia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Patricia\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.10\\microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",

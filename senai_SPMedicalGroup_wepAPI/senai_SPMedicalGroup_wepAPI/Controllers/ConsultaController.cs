@@ -66,7 +66,7 @@ namespace senai_SPMedicalGroup_wepAPI.Controllers
         });
     }
 
-    [Authorize(Roles = "1,3")]
+    [Authorize(Roles = "2,3")]
     [HttpGet("Listar/Minhas")]
     public IActionResult ListarMinhas()
     {

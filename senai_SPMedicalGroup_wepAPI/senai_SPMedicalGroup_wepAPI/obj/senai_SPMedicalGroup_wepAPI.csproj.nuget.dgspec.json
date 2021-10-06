@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Patricia\\Desktop\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj": {}
+    "C:\\Users\\Patricia\\Desktop\\Projeto---SP-Med.Group\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Patricia\\Desktop\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj": {
+    "C:\\Users\\Patricia\\Desktop\\Projeto---SP-Med.Group\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Patricia\\Desktop\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Patricia\\Desktop\\Projeto---SP-Med.Group\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj",
         "projectName": "senai_SPMedicalGroup_wepAPI",
-        "projectPath": "C:\\Users\\Patricia\\Desktop\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj",
+        "projectPath": "C:\\Users\\Patricia\\Desktop\\Projeto---SP-Med.Group\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI.csproj",
         "packagesPath": "C:\\Users\\Patricia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Patricia\\Desktop\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\obj\\",
+        "outputPath": "C:\\Users\\Patricia\\Desktop\\Projeto---SP-Med.Group\\senai_SPMedicalGroup_wepAPI\\senai_SPMedicalGroup_wepAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Patricia\\AppData\\Roaming\\NuGet\\NuGet.Config",
